@@ -11,9 +11,9 @@ from tqdm import tqdm
 from sklearn.model_selection import KFold
 from tick.hawkes import SimuHawkesExpKernels, HawkesExpKern
 
-if "__file__" in globals():
-    os.chdir(os.path.dirname(__file__) + "/..")
-sys.path.append(".")
+# if "__file__" in globals():
+#     os.chdir(os.path.dirname(__file__) + "/..")
+# sys.path.append(".")
 from pkg.utils.misc import (
     export_json,
     makedirs,

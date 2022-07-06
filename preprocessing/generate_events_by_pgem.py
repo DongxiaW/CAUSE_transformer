@@ -3,9 +3,9 @@ import os.path as osp
 import sys
 import argparse
 
-if "__file__" in globals():
-    os.chdir(os.path.dirname(__file__) + "/..")
-sys.path.append(".")
+# if "__file__" in globals():
+#     os.chdir(os.path.dirname(__file__) + "/..")
+# sys.path.append(".")
 
 from tqdm import tqdm
 import numpy as np
