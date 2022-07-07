@@ -63,10 +63,10 @@ df.config = df.config.apply(ast.literal_eval)
 # barplots for nll
 datasets = [
     "mhp-1K-10",
-    "mscp-1K-10",
+    # "mscp-1K-10",
     "pgem-1K-10",
-    "IPTV",
-    "MemeTracker-0.4M-100",
+    # "IPTV",
+    # "MemeTracker-0.4M-100",
 ]
 ylims = [950, 300, 600, None, None]
 
